@@ -25,10 +25,10 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin
 # also no actual installation will be performed
 # debug mode 1 will download to the directory the script is run in, but will not check the version
 # debug mode 2 will download to the temp directory, check for blocking processes, check the version, but will not install anything or remove the current version
-DEBUG=1
+DEBUG=0
 
 # notify behavior
-NOTIFY=success
+NOTIFY=silent
 # options:
 #   - success      notify the user on success
 #   - silent       no notifications
@@ -98,7 +98,7 @@ LOGO=appstore
 
 
 # App Store apps handling
-IGNORE_APP_STORE_APPS=no
+IGNORE_APP_STORE_APPS=yes
 # options:
 #  - no            If the installed app is from App Store (which include VPP installed apps)
 #                  it will not be touched, no matter its version (default)
