@@ -1,4 +1,11 @@
 
+# Updating Vention's fork of Installomator
+- Use the `vention-publish` branch
+- Generally only pull changes from upstream/release which points to the official Installomator release channel
+- Pull additional content directly to this branch
+- Build `Installomator.sh` with `./assemble --script` and push it to origin when done working
+- Publish [vention-publish/Installomator.sh](https://github.com/VentionCo/Installomator/blob/vention-publish/Installomator.sh) to Jamf.
+
 # Installomator
 
 _The one installer script to rule them all._
