@@ -25,10 +25,10 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin
 # also no actual installation will be performed
 # debug mode 1 will download to the directory the script is run in, but will not check the version
 # debug mode 2 will download to the temp directory, check for blocking processes, check the version, but will not install anything or remove the current version
-DEBUG=1
+DEBUG=0
 
 # notify behavior
-NOTIFY=success
+NOTIFY=silent
 # options:
 #   - success      notify the user on success
 #   - silent       no notifications
@@ -98,7 +98,7 @@ LOGO=appstore
 
 
 # App Store apps handling
-IGNORE_APP_STORE_APPS=no
+IGNORE_APP_STORE_APPS=yes
 # options:
 #  - no            If the installed app is from App Store (which include VPP installed apps)
 #                  it will not be touched, no matter its version (default)
@@ -336,7 +336,7 @@ if [[ $(/usr/bin/arch) == "arm64" ]]; then
     fi
 fi
 VERSION="10.6beta"
-VERSIONDATE="2024-04-01"
+VERSIONDATE="2024-08-26"
 
 # MARK: Functions
 
@@ -3873,7 +3873,6 @@ googledrivefilestream)
     fi
     appNewVersion=$(curl -s "https://community.chocolatey.org/packages/googledrive" | xmllint --html --xpath 'substring-after(string(//h1[@class="mb-0 text-center"]), "Google Drive")' - 2> /dev/null)
     downloadURL="https://dl.google.com/drive-file-stream/GoogleDriveFileStream.dmg" # downloadURL="https://dl.google.com/drive-file-stream/GoogleDrive.dmg"
-    blockingProcesses=( "Google Docs" "Google Drive" "Google Sheets" "Google Slides" )
     appName="Google Drive.app"
     expectedTeamID="EQHXZ8M8AV"
     ;;
@@ -6187,15 +6186,12 @@ obs)
     name="OBS"
     type="dmg"
     if [[ $(arch) == "arm64" ]]; then
-        SUFeedURL="https://obsproject.com/osx_update/updates_arm64_v2.xml"
+        archiveName="OBS-Studio-[0-9.]*-macOS-Apple.dmg"
     elif [[ $(arch) == "i386" ]]; then
-        SUFeedURL="https://obsproject.com/osx_update/updates_x86_64_v2.xml"
+        archiveName="OBS-Studio-[0-9.]*-macOS-Intel.dmg"
     fi
-    appNewVersion=$(curl -fs "$SUFeedURL" | xpath '(//rss/channel/item[sparkle:channel="stable"]/sparkle:shortVersionString/text())[1]' 2>/dev/null)
-    downloadURL=$(curl -fs "$SUFeedURL" | xpath 'string(//rss/channel/item[sparkle:channel="stable"]/enclosure/@url[1])' 2>/dev/null)
-    archiveName=$(basename "$downloadURL")   
-    versionKey="CFBundleShortVersionString"
-    blockingProcesses=( "OBS Studio" )
+    downloadURL="$(downloadURLFromGit obsproject obs-studio)"
+    appNewVersion="$(versionFromGit obsproject obs-studio)"
     expectedTeamID="2MMRE5MTB8"
     ;;
 obsbotwebcam)
