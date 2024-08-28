@@ -336,7 +336,7 @@ if [[ $(/usr/bin/arch) == "arm64" ]]; then
     fi
 fi
 VERSION="10.6beta"
-VERSIONDATE="2024-08-26"
+VERSIONDATE="2024-08-28"
 
 # MARK: Functions
 
@@ -4371,7 +4371,15 @@ jasp)
     appNewVersion=$(versionFromGit jasp-stats jasp-desktop )
     expectedTeamID="AWJJ3YVK9B"
     ;;
-jdk17)
+jce)
+    name="Jamf Compliance Editor"
+    type="pkg"
+    packageID="com.jamf.complianceeditor"
+    downloadURL="$(downloadURLFromGit Jamf-Concepts jamf-compliance-editor)"
+    appNewVersion="$(versionFromGit Jamf-Concepts jamf-compliance-editor)"
+    archiveName="JamfComplianceEditor.v[0-9.]*.pkg"
+    expectedTeamID="483DWKW443"
+    ;;jdk17)
     name="Java SE Development Kit 17"
     type="pkgInDmg"
     versionKey="CFBundleShortVersionString"

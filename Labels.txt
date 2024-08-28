@@ -323,7 +323,7 @@ jamfpppcutility
 jamfreenroller
 jamovi
 jasp
-jdk17
+jce
 jdk18
 jdk19
 jdk20
