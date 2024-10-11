@@ -41,6 +41,7 @@ androidfiletransfer
 androidstudio
 anydesk
 apachedirectorystudio
+apachenetbeans
 apparency
 appcleaner
 applenyfonts
@@ -49,6 +50,7 @@ applesfcompact
 applesfmono
 applesfpro
 applesfsymbols
+aquamacs
 aquaskk
 arcbrowser
 archimate
@@ -77,8 +79,11 @@ backgroundmusic
 backgrounds
 balenaetcher
 balsamiqwireframes
+bambustudio
 bartender
 basecamp3
+baseline
+baseline-nodaemon
 bbedit
 bbeditpkg
 beamstudio
@@ -99,6 +104,7 @@ bracketsio
 brave
 bravepkg
 brosix
+bruno
 bugdom
 burpsuitecommunityedition
 burpsuiteprofessional
@@ -107,6 +113,7 @@ caffeine
 cakebrew
 calcservice
 calibre
+calibriteprofiler
 camostudio
 camtasia
 camtasia2019
@@ -140,6 +147,7 @@ cloudflarewarp
 cloudya
 clue
 cluefull
+cmake
 cocoapods
 coconutbattery
 code42
@@ -183,7 +191,9 @@ dragonframe5
 drawio
 drift
 dropbox
+droplr
 druvainsync
+dstny
 duckduckgo
 duet
 duodesktop
@@ -196,12 +206,14 @@ eclipsetemurin11
 eclipsetemurin17
 eclipsetemurin21
 eclipsetemurin8
+ecosiabrowser
 egnyte
 egnytecore
 egnytewebedit
 element
 elgatocamerahub
 elgatostreamdeck
+emacs
 eposconnect
 escrowbuddy
 eshareosx
@@ -243,6 +255,7 @@ fontbase
 fontexplorer
 fork
 franz
+freeplane
 front
 fsmonitor
 fujifilmwebcam
@@ -251,6 +264,7 @@ gather
 gathertown
 gdevelop
 geneiousprime
+gephi
 gfxcardstatus
 gimp
 githubdesktop
@@ -283,6 +297,7 @@ hmavpn
 homebrew
 hoppscotch
 horos
+hot
 houdahspot
 hpeasyadmin
 hpeasystart
@@ -296,6 +311,7 @@ ibmnotifier
 icons
 idrive
 idrivethin
+igv
 iina
 imageoptim
 imazingprofileeditor
@@ -355,6 +371,7 @@ keyaccess
 keybase
 keyboardmaestro
 keyshot12
+keyshot12_2024
 keystoreexplorer
 kimplusclientmodul
 klokki
@@ -381,6 +398,7 @@ logitechoptionsplus
 logitune
 logseq
 loom
+loupedeck
 lowprofile
 lsagent
 lucidlink
@@ -390,6 +408,7 @@ macadminspython
 maccyapp
 macfuse
 macoslaps
+macpass
 macports
 mactex
 mactracker
@@ -442,6 +461,7 @@ microsoftsharepointplugin
 microsoftskypeforbusiness
 microsoftskypeforbusinessremovaltool
 microsoftteams
+microsoftteams-rollingout
 microsoftteamsclassic
 microsoftteamsnew
 microsoftteamsreset
@@ -466,12 +486,15 @@ mochatelnet
 mochatn3270
 mochatn3812
 mochatn5250
+mockoon
 moderncsv
 mongodbcompass
 monitorcontrol
 montereyblocker
 morisawadesktopmanager
+mountainduck
 mowgliiitsycal
+multipass
 munki
 munkiadmin
 musescore
@@ -483,6 +506,7 @@ nessusagent
 netiquette
 netnewswire
 netspot
+networksharemounter
 nextcloud
 nodejs
 nodejslts
@@ -505,6 +529,7 @@ obsidian
 odrive
 omnidisksweeper
 omnifocus3
+omnifocus4
 omnigraffle6
 omnigraffle7
 omnioutliner5
@@ -575,11 +600,12 @@ raindropio
 rancherdesktop
 rapidapi
 raycast
+realvncondemandassist
 realvncserver
 realvncviewer
 rectangle
 redcanarymacmonitor
-redeye
+redshift
 reflector4
 relatel
 remotedesktopmanagerenterprise
@@ -590,6 +616,8 @@ renew
 renew-noagent
 resiliosynchome
 retrobatch
+rhino7
+rhino8
 ricohpsprinters
 ringcentralapp
 ringcentralclassicapp
@@ -597,16 +625,20 @@ ringcentralmeetings
 ringcentralphone
 rocket
 rocketchat
+rodecentral
 rodeconnect
+rodeunify
 royaltsx
 rstudio
 rustdesk
 salesforcecli
 santa
 scaleft
+scenebuilder
 screamingfrogseospider
 screencloudplayer
 screenflick
+scribus
 scrollreverser
 sdnotary
 secretive
@@ -620,6 +652,7 @@ shottr
 sidekick
 signal
 silnite
+sipgateclinq
 sirimote
 sizeup
 sketch
@@ -630,6 +663,7 @@ slab
 slack
 smartgit
 smartsheet
+smartsvn
 snagit
 snagit2019
 snagit2020
@@ -638,7 +672,9 @@ snagit2022
 snagit2023
 snagit2024
 snapgeneviewer
+soapuiopensource
 sococo
+solstice
 sonicvisualiser
 sonobus
 sonos
@@ -693,11 +729,13 @@ techsmithcapture
 telegram
 tembo
 tencentmeeting
+texliveutility
 texshop
 textexpander
 textmate
 theunarchiver
 things
+thonny
 thunderbird
 thunderbird_intl
 ticktick
@@ -708,6 +746,7 @@ tom4aconverter
 torbrowser
 tower
 transfer
+transmit5
 trapcode
 trex
 tunnelbear
@@ -719,7 +758,6 @@ ultimakercura
 umbrellaroamingclient
 uniconverter
 universaltypeclient
-universe
 unnaturalscrollwheels
 utm
 vagrant
@@ -755,11 +793,13 @@ whatroute
 whatsapp
 wireshark
 wordservice
+workplacechat
 wrikeformac
 wwdc
 xbar
 xcreds
 xeroxphaser7800
+xeroxprintandscan
 xeroxworkcentre7800
 xink
 xmenu
@@ -792,3 +832,4 @@ zulujdk17
 zulujdk18
 zulujdk21
 zulujdk8
+zulujdkfx17
